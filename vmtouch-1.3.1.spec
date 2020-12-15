@@ -35,6 +35,6 @@ make install PREFIX=%{buildroot}%{_prefix} MANDIR=%{buildroot}%{_mandir}/man8
 
 
 %changelog
-* Mon Dec 01 2020 Ioannis Giannakopulos <v-igiannakopoulos@eurobank.gr> - 1.3.1-1
+* Mon Dec 01 2020 Ioannis Giannakopulos <a@b.c> - 1.3.1-1
 - Initial package
 
