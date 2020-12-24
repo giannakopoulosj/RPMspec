@@ -1,10 +1,10 @@
 Name:           vmtouch
 Version:        1.3.1
-Release:        1%{?dist}
+Release:        0%{?dist}
 Summary:        Portable file system cache diagnostics and control
 
 License:        BSD
-URL:            http://hoytech.com/vmtouch/
+URL:            http://hoytech.com/vmtouch
 Source0:        https://github.com/hoytech/%{name}/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
 BuildRequires:  /usr/bin/pod2man
@@ -32,9 +32,3 @@ make install PREFIX=%{buildroot}%{_prefix} MANDIR=%{buildroot}%{_mandir}/man8
 %doc CHANGES README.md TODO TUNING.md
 %{_bindir}/%{name}
 %{_mandir}/man8/%{name}.8*
-
-
-%changelog
-* Mon Dec 01 2020 Ioannis Giannakopulos <a@b.c> - 1.3.1-1
-- Initial package
-
